@@ -33,7 +33,7 @@ nav{
   border-color: #666;
   border-radius: 10px;
   border-style: solid;
-  font-size: 2vw;
+  font-size: 1vw;
 }
 
 article{
@@ -47,7 +47,7 @@ article{
   border-color: #666;
   border-radius: 10px;
   border-style: solid;
-  font-size: 2vw;
+  font-size: 1vw;
 }
 
 section:after {
