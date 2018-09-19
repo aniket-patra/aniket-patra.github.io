@@ -27,8 +27,8 @@ nav{
   float: left;
   width: 30%;
   background: #ccc;
-  padding: 30px;
-  height: 220px;
+  padding: 2%;
+  height: 20%;
   border-width:2px ;
   border-color: #666;
   border-radius: 10px;
@@ -38,10 +38,10 @@ nav{
 article{
   float: right;
   background: #f1f1f1;
-  padding: 20px;
+  padding: 2%;
   width: 65%;
-  height: 220px;
-  margin-bottom: 20px;
+  height: 20%;
+  margin-bottom: 1%;
   border-width:2px ;
   border-color: #666;
   border-radius: 10px;
