@@ -1,4 +1,4 @@
 function openWin()
 {
-  window.open("#");
+  window.open("https://aniket-patra.github.io/aniket-patra.github.io-404/");
 }
