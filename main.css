@@ -1,68 +1,192 @@
-* {
-    box-sizing: border-box;
-}
+
 
 body{
-  background-image: url("back.png");
-  font-family: Helvetica,sans-serif,serif;
+    background-color:  #f2f2f2;
+  margin: 0;
+  font-family: arial;
 }
 
 header{
-  background-color: #666;
-  margin-left:80px;
-  margin-right: 80px;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  padding:10px;
-  text-align: center;
-  color: white;
-  font-size: 2vw;
-  border-width: 2ox;
-  border-color: #4d4d4d;
-  border-radius: 10px;
-  border-style: solid;
+  padding: 250px;
+  background-image: url("back.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: auto;
 }
 
-nav{
-  float: left;
-  width: 30%;
-  background: #ccc;
-  padding: 2%;
-  height: 20%;
-  border-width:2px ;
-  border-color: #666;
-  border-radius: 10px;
-  border-style: solid;
-  font-size: 1vw;
+.topnav{
+  font-family: arial
+  overflow: hidden;
+  /*background-color:#333;*/
+  background: rgba(0, 0, 0, 0.0);
+  position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
-article{
+.topnav a {
   float: right;
-  background: #f1f1f1;
-  padding: 2%;
-  width: 65%;
-  height: 20%;
-  margin-bottom: 1%;
-  border-width:2px ;
-  border-color: #666;
-  border-radius: 10px;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.topnav a:hover{
+  background: rgba(255, 255, 255, 0.2);
+  color: black;
+  border: 1px;
+  border-color: transparent;
   border-style: solid;
-  font-size: 1vw;
+  border-radius: 5px;
 }
 
-section:after {
-    content: "";
-    display: table;
-    clear: both;
+.topnav a.active{
+  /*background-color: #4CAF50;*/
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 1px;
+  border-color: transparent;
+  border-style: solid;
+  border-radius: 5px;
 }
 
-footer {
-    background-color: #777;
-    padding: 10px;
-    text-align: center;
-    color: white;
-    border-width: 2ox;
-    border-color: #4d4d4d;
+.outbox{display:block;
+  position: fixed;
+    top: 15vh;
+    width: 100%;
+}
+.box{
     border-radius: 10px;
-    border-style: solid;
+    background-color: #f2f2f2;
+    top: 0px;
+    margin: auto;
+    width: 550px;
+    height: 450px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.imgsec{
+  position:auto;
+  color: black;
+  background-color: #f2f2f2;
+/*  border: 2px;
+  border-color: black;
+  border-style: solid;*/
+  float: left;
+  width: 50%;
+  height: 80%;
+}
+
+.textsec{
+  font-size: 37px;
+  text-align: center;
+  position: auto;
+  color: black;
+  background-color: #f2f2f2;
+  /*border: 2px;
+  border-color: black;
+  border-style: solid;*/
+  float: right;
+  width: 40%;
+  height: 80%;
+}
+
+.title{
+  color: grey;
+  font-size: 18px;
+}
+
+.lowersec{
+  /*border-width: 2px;
+  border-style: solid;
+  border-color: black;*/
+  width: 100%;
+  height: 15%;
+  margin-top: 69%;
+  text-align: center;
+}
+
+.lowersec a{
+  color: grey;
+  font-size: 37px;
+  letter-spacing: 20px;
+}
+
+.lowersec a:hover{
+  color: black;
+}
+
+.but{
+  position: fixed;
+    top: 70vh;
+    width: 100%;
+    text-align: center;
+}
+
+  .button {
+      background-color: grey; /* Green */
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin:auto;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+  }
+
+  .button1 {
+    background-color: #f2f2f2;
+    color: black;
+    border: 2px solid grey;
+}
+
+.button1:hover {
+    background-color: grey;
+    color: white;
+}
+
+.para{
+  text-align: justify;
+  line-height: 30px;
+  padding: 10px;
+  margin: auto;
+  height: auto;
+  width: 60%;
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  .header {
+    text-align: center;
+  }
+  .header .profile-image {
+    float: none !important;
+    margin: 0 auto;
+  }
+  .header .profile-content {
+    float: none !important;
+    text-align: center;
+  }
+  .header .btn {
+    margin-top: 30px;
+    float: none !important;
+  }
+  .project-image {
+    margin-bottom: 15px;
+  }
+}
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+/* Ex-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+  .container {
+    width: 1360px;
+  }

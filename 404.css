@@ -1,0 +1,79 @@
+
+
+body{
+    background-color:  #f2f2f2;
+  margin: 0;
+  font-family: arial;
+}
+
+header{
+  padding: 250px;
+  background-image: url("back.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: auto;
+}
+
+#err{
+  color: white;
+  font-size: 40px;
+}
+
+.topnav{
+  font-family: arial
+  overflow: hidden;
+  /*background-color:#333;*/
+  background: rgba(0, 0, 0, 0.0);
+  position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.topnav a:hover{
+  background: rgba(255, 255, 255, 0.2);
+  color: black;
+  border: 1px;
+  border-color: transparent;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  .header {
+    text-align: center;
+  }
+  .header .profile-image {
+    float: none !important;
+    margin: 0 auto;
+  }
+  .header .profile-content {
+    float: none !important;
+    text-align: center;
+  }
+  .header .btn {
+    margin-top: 30px;
+    float: none !important;
+  }
+  .project-image {
+    margin-bottom: 15px;
+  }
+}
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+/* Ex-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+  .container {
+    width: 1360px;
+  }
