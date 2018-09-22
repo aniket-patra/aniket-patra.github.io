@@ -7,7 +7,7 @@ body{
 }
 
 header{
-  padding: 250px;
+  padding: 220px;
   background-image: url("back.jpeg");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@ header{
   overflow: hidden;
   /*background-color:#333;*/
   background: rgba(0, 0, 0, 0.0);
-  position: fixed;
+  position: absolute;
     top: 0px;
     width: 100%;
 }
@@ -52,10 +52,12 @@ header{
   border-radius: 5px;
 }
 
-.outbox{display:block;
-  position: fixed;
-    top: 15vh;
+.outbox{
+    position: absolute;
+    top: 10vh;
     width: 100%;
+    margin: auto;
+    height: auto;
 }
 .box{
     border-radius: 10px;
@@ -63,35 +65,39 @@ header{
     top: 0px;
     margin: auto;
     width: 550px;
-    height: 450px;
+    height: auto;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .imgsec{
-  position:auto;
   color: black;
   background-color: #f2f2f2;
 /*  border: 2px;
   border-color: black;
   border-style: solid;*/
   float: left;
-  width: 50%;
-  height: 80%;
+  width: 250px;
+  padding: 10px;
 }
 
 .textsec{
+  padding: 10px;
   font-size: 37px;
   text-align: center;
-  position: auto;
+  float: right;
   color: black;
   background-color: #f2f2f2;
   /*border: 2px;
   border-color: black;
   border-style: solid;*/
-  float: right;
-  width: 40%;
-  height: 80%;
+  width: 260px;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .title{
@@ -99,7 +105,7 @@ header{
   font-size: 18px;
 }
 
-.lowersec{
+.lowersec{clear: both;
   /*border-width: 2px;
   border-style: solid;
   border-color: black;*/
@@ -120,11 +126,11 @@ header{
 }
 
 .but{
-  position: fixed;
-    top: 70vh;
+    margin-top: 17vh;
     width: 100%;
     text-align: center;
-}
+    margin-right: auto;
+    }
 
   .button {
       background-color: grey; /* Green */
@@ -158,35 +164,56 @@ header{
   padding: 10px;
   margin: auto;
   height: auto;
-  width: 60%;
+  width: 70%;
 }
 
-/* Extra small devices (phones, less than 768px) */
-@media (max-width: 767px) {
-  .header {
-    text-align: center;
-  }
-  .header .profile-image {
-    float: none !important;
-    margin: 0 auto;
-  }
-  .header .profile-content {
-    float: none !important;
-    text-align: center;
-  }
-  .header .btn {
-    margin-top: 30px;
-    float: none !important;
-  }
-  .project-image {
-    margin-bottom: 15px;
-  }
+.footbox{
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+   width: 100%;
+   background-color: grey;
+   color: #f2f2f2;
+   text-align: center;
+
 }
-/* Small devices (tablets, 768px and up) */
-/* Medium devices (desktops, 992px and up) */
-/* Large devices (large desktops, 1200px and up) */
-/* Ex-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1400px) {
-  .container {
-    width: 1360px;
-  }
+
+.footbox:hover{
+  color:grey;
+  background-color: #f2f2f2;
+  border-color:grey;
+}
+
+.footbox a{
+  color:black;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+@media (max-width: 600px) {
+    .textsec {
+      float: left;
+        width: 80%;
+        height: auto;
+        padding-left: 10%;
+    }
+    @media (max-width: 600px) {
+         .imgsec {
+            width: 80%;
+            height: auto;
+            padding-left: 10%;
+        }
+    @media (max-width: 600px) {
+         .box {text-align: center;
+            width: 60%;
+            min-width: 270px;
+            height: auto;
+        }
+        @media (max-width: 600px) {
+             .but {margin-top: 91%;
+               padding: 8px 16px;
+            }
+        @media (max-width: 900px) {
+             .button1 {text-align: center;
+                font-size: 10px;
+            }
