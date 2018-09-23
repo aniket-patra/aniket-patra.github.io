@@ -22,6 +22,7 @@ header{
   position: absolute;
     top: 0px;
     width: 100%;
+
 }
 
 .topnav a {
@@ -31,6 +32,8 @@ header{
   padding: 14px 16px;
   font-size: 17px;
   text-decoration: none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
 
 .topnav a:hover{
@@ -119,6 +122,8 @@ section:after {
   color: grey;
   font-size: 37px;
   letter-spacing: 20px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
 
 .lowersec a:hover{
@@ -168,14 +173,17 @@ section:after {
 }
 
 .footbox{
-  border-width: 2px;
+  border-width: 0px;
   border-style: solid;
   border-color: transparent;
    width: 100%;
    background-color: grey;
    color: #f2f2f2;
    text-align: center;
-
+padding-bottom: 2px;
+padding-top: 1px;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
 }
 
 .footbox:hover{
@@ -210,10 +218,13 @@ section:after {
             height: auto;
         }
         @media (max-width: 600px) {
-             .but {margin-top: 95%;
-               padding: 8px 16px;
+             .but {margin-top: 91%;
+               
             }
         @media (max-width: 900px) {
              .button1 {text-align: center;
                 font-size: 10px;
             }
+            @media (max-width: 900px) {
+                 .lowersec {padding-left: 5%;
+                }
