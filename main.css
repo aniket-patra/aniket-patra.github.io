@@ -22,8 +22,7 @@ body{
   background: rgba(0, 0, 0, 0.0);
   position: absolute;
     top: 0px;
-    width: 100%;
-
+    right: 0px;
 }
 
 .topnav a {
@@ -56,11 +55,20 @@ body{
   border-radius: 5px;
 }
 
+.index_wrapper{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 1%;
+  margin-right: 1%;
+  width: auto;
+}
+
 .outbox{
     position: absolute;
     top: 10vh;
-    width: 100%;
-    margin: auto;
+    width: 98%;
     height: auto;
 }
 .box{
@@ -112,18 +120,22 @@ body{
 
 .fa-google-plus:hover{
   color: #DB4437;
+  font-size: 40px;
 }
 
 .fa-twitter:hover{
   color:#1DA1F2;
+  font-size: 40px;
 }
 
 .fa-quora:hover{
   color:#a62100;
+  font-size: 40px;
 }
 
 .fa-linkedin:hover{
   color:#0077B5;
+  font-size: 40px;
 }
 .lowersec{clear: both;
   /*border-width: 2px;
@@ -145,35 +157,41 @@ body{
 
 .but{
     margin-top: 17vh;
+    padding: 10px 10px 10px 10px;
     width: 100%;
     text-align: center;
     margin-right: auto;
     }
 
   .button {
-      background-color: grey; /* Green */
+    /*  background-color: grey;   Green */
       border: none;
-      color: white;
+      /*color: white;*/
       padding: 16px 32px;
       text-align: center;
       text-decoration: none;
-      display: inline-block;
+      display: block;
       font-size: 16px;
       margin:auto;
-      -webkit-transition-duration: 0.4s; /* Safari */
-      transition-duration: 0.4s;
+      -webkit-transition-duration: 0.25s; /* Safari */
+      transition-duration: 0.25s;
       cursor: pointer;
+
   }
 
   .button1 {
-    background-color: #f2f2f2;
+    /*background-color: #f2f2f2;*/
+    background: none;
     color: black;
     border: 2px solid grey;
+    border-radius: 30px;
+    outline: none;
 }
 
 .button1:hover {
     background-color: grey;
     color: white;
+    padding: 16px 52px;
 }
 
 .para{
@@ -350,12 +368,77 @@ section:after {
     clear: both;
 }
 
+/* ----------------COntact PAge---------------------------------*/
+
+.formbox{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+  opacity: 0.9;
+}
+.formbox h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.formbox input[type = "name"],.formbox input[type = "email"],.formbox input[type = "text"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.formbox input[type = "name"]:focus,.formbox input[type = "email"]:focus,.formbox input[type = "text"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+
+.formbox input[type = "query"]{
+  height: auto;
+}
+
+.formbox input[type = "button"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.formbox input[type = "button"]:hover{
+  background: #2ecc71;
+}
+
+
 @media (max-width: 600px) {
     .textsec {
       float: left;
         width: 80%;
         height: auto;
         padding-left: 10%;
+    }
+    @@media (max-width:600px) {
+         .index_wrapper{
+           margin-left:50%;
+         }
     }
     @media (max-width: 600px) {
          .imgsec {
@@ -370,10 +453,11 @@ section:after {
             height: auto;
         }
         @media (max-width: 600px) {
-             .but {margin-top: 91%;
+             .but {visibility: hidden;
             }
         @media (max-width: 900px) {
-             .button1 {text-align: center;
+             .button1 {
+               text-align: center;
                 font-size: 10px;
             }
         @media (max-width: 900px) {
