@@ -1,3 +1,3 @@
 function msg() {
-  alert("This feature isn't ready yet!!");
+  alert("This page isn't ready yet!!");
 }
