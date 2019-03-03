@@ -1,22 +1,35 @@
 
 
 body{
-    background-color:  #f2f2f2;
-  margin: 0;
-  font-family: arial;
-  height: 100vh;
+    background-color:  #006884;
+    display: flex;
+  flex-direction: column;
+  
+  font-family: arial;   
+  top:0; 
+  bottom:0; 
+  right:0; 
+  left:0;
+}
+
+.container{
+  flex: 1 1 auto;
 }
 
 .index_header{
-  padding: 220px;
-  background-image: url("back.jpeg");
+  border-radius: 5px;
+  height:40vh;
+  /*padding: 220px;
+  /*background-image: url("back.jpeg");*/
+  background-color:#fa9d00;
   background-size: 100%;
   background-repeat: no-repeat;
   width: auto;
+  
 }
 
 .topnav{
-  font-family: arial
+  font-family: arial;
   overflow: hidden;
   /*background-color:#333;*/
   background: rgba(0, 0, 0, 0.0);
@@ -38,7 +51,7 @@ body{
 
 .topnav a:hover{
   background: rgba(255, 255, 255, 0.2);
-  color: black;
+  color: #006884;
   border: 0px;
   border-color: transparent;
   border-style: solid;
@@ -48,14 +61,15 @@ body{
 .topnav a.active{
   /*background-color: #4CAF50;*/
   background: rgba(255, 255, 255, 0.2);
-  color: black;
+  color: #006884;
   border: 0px;
   border-color: transparent;
   border-style: solid;
   border-radius: 5px;
 }
 
-.index_wrapper{
+.index_wrapper{  
+  
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 5px;
@@ -63,28 +77,30 @@ body{
   margin-left: 1%;
   margin-right: 1%;
   width: auto;
+  height: 55vh;
 }
 
 .outbox{
     position: absolute;
-    top: 10vh;
+    top: 9vh;
     width: 98%;
     height: auto;
 }
 .box{
-    border-radius: 10px;
-    background-color: #f2f2f2;
+    border-radius: 2px;
+    background-color: #191919;
     top: 0px;
     margin: auto;
     width: 550px;
     height: auto;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.9;
 }
 
 .imgsec{
   color: black;
-  background-color: #f2f2f2;
+  background-color:inherit;
 /*  border: 2px;
   border-color: black;
   border-style: solid;*/
@@ -98,19 +114,35 @@ body{
   font-size: 37px;
   text-align: center;
   float: right;
-  color: black;
-  background-color: #f2f2f2;
+  color: #006884;
+  background-color: inherit;
   /*border: 2px;
   border-color: black;
   border-style: solid;*/
   width: 260px;
 }
 
+.lowersec{clear: both;
+  /*border-width: 2px;
+  border-style: solid;
+  border-color: black;*/
+  width: 100%;
+  height: 15%;
+  margin-top: 69%;
+  text-align: center;
 
+}
+
+.lowersec a{
+  font-size: 37px;
+  letter-spacing: 20px;
+    color: white;
+}
 
 .title{
   color: grey;
-  font-size: 18px;
+  font-size: 30px;
+  
 }
 
 .fa{
@@ -137,30 +169,14 @@ body{
   color:#0077B5;
   font-size: 40px;
 }
-.lowersec{clear: both;
-  /*border-width: 2px;
-  border-style: solid;
-  border-color: black;*/
-  width: 100%;
-  height: 15%;
-  margin-top: 69%;
-  text-align: center;
 
-}
-
-.lowersec a{
-  font-size: 37px;
-  letter-spacing: 20px;
-    color: grey;
-}
 
 
 .but{
-    margin-top: 17vh;
+    margin-top: 30vh; 
     padding: 10px 10px 10px 10px;
     width: 100%;
-    text-align: center;
-    margin-right: auto;
+    text-align: center;   
     }
 
   .button {
@@ -182,14 +198,14 @@ body{
   .button1 {
     /*background-color: #f2f2f2;*/
     background: none;
-    color: black;
-    border: 2px solid grey;
+    color: #ffd083;
+    border: 2px solid #fa9d00;
     border-radius: 30px;
     outline: none;
 }
 
 .button1:hover {
-    background-color: grey;
+    background-color: #fa9d00;
     color: white;
     padding: 16px 52px;
 }
@@ -201,15 +217,17 @@ body{
   margin: auto;
   height: auto;
   width: 70%;
+  color: #ffd083;
 }
 
 .footbox{
+  border-radius: 5px;
   border-width: 0px;
 border-style: solid;
 border-color: transparent;
  width: 100%;
- background-color: grey;
- color: #f2f2f2;
+ background-color: #fa9d00;
+ color: #006884;
  text-align: center;
 padding-bottom: 2px;
 padding-top: 1px;
@@ -218,13 +236,12 @@ transition-duration: 0.4s;
  }
 
 .footbox:hover{
-  color:grey;
-  background-color: #f2f2f2;
-  border-color:grey;
+  color:#ffd083;
+  background-color: #006884;
+  /*border-color:#fa9d00;*/
 }
 
-.footbox a{
-  color:black;
+.footbox a{  
   text-decoration: none;
   font-size: 22px;
 }
@@ -291,9 +308,9 @@ text-align: center;
 /*background-color: #41B3A3;*/
 }
 
-.row{
-  /*background-color: #E27D60;*/
-}
+/*.row{
+  background-color: #E27D60;
+}*/
 
 .section_bar{
 /*background-color: #E8A87C;*/
@@ -370,6 +387,22 @@ section:after {
 
 /* ----------------COntact PAge---------------------------------*/
 
+
+.con_out_wrap{
+  min-height: 100%;
+}
+
+.con_inner_wrap{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 1%;
+  margin-right: 1%;
+  width: auto;
+  height: 50vh;
+}
+
 .formbox{
   width: 300px;
   padding: 40px;
@@ -380,6 +413,7 @@ section:after {
   background: #191919;
   text-align: center;
   opacity: 0.9;
+  border-radius: 2px;
 }
 .formbox h1{
   color: white;
@@ -428,44 +462,58 @@ section:after {
 }
 
 
-@media (max-width: 600px) {
-    .textsec {
+@media (max-width: 600px) 
+{
+    .textsec 
+    {
       float: left;
         width: 80%;
         height: auto;
         padding-left: 10%;
     }
-    @@media (max-width:600px) {
-         .index_wrapper{
-           margin-left:50%;
-         }
+
+    .index_wrapper
+    {
+      margin-left:50%;
     }
-    @media (max-width: 600px) {
-         .imgsec {
-            width: 80%;
-            height: auto;
-            padding-left: 10%;
-        }
-    @media (max-width: 600px) {
-         .box {text-align: center;
-            width: 60%;
-            min-width: 270px;
-            height: auto;
-        }
-        @media (max-width: 600px) {
-             .but {visibility: hidden;
-            }
-        @media (max-width: 900px) {
-             .button1 {
+
+    .imgsec 
+     {
+      width: 80%;
+      height: auto;
+      padding-left: 10%;
+    }
+
+    .box 
+    {
+     text-align: center;
+    width: 60%;
+    min-width: 270px;
+    height: auto;
+    }
+    
+    .but 
+    {
+     visibility: hidden;
+    }
+    }
+        @media (max-width: 900px) 
+        {
+             .button1 
+             {
                text-align: center;
                 font-size: 10px;
             }
-        @media (max-width: 900px) {
-                 .lowersec {padding-left: 5%;
-                }
+       
+             .lowersec 
+             {
+               padding-left: 5%;
+              }
+        }
         @media (max-width: 800px) {
                     .aside_right, .section_bar {
                       display: block;
                       width: 100%;
                       height: auto;
                             }
+                          }
