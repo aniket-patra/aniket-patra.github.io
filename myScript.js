@@ -9,16 +9,16 @@ function msg() {
   alert("This page isn't completely ready yet!! But have fun on your Windows Device.");
 
   if(b>-1)
-  alert("This page isn't ready for your Android device. But do check it out on PC");
+  alert("This page isn't ready for your Android device. But do check it out on PC.");
 
   if(c>-1)
   alert("This page isn't completely ready yet!! But have fun on your Apple Device.");
 
   if(d>-1)
-  alert("This page isn't ready for your iPhone device. But do check it out on PC/MAC");
+  alert("This page isn't ready for your iPhone device. But do check it out on PC/MAC.");
 
   if(e>-1)
-  alert("I don't know if this page will work on your iPad but have fun on PC/MAC");
+  alert("I don't know if this page will work on your iPad but have fun on PC/MAC.");
 }
 
 function msgTweet()
