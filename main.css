@@ -147,9 +147,92 @@ body, html{
     background-color:rgb(228, 228, 228);
   }
   
-  @media only screen and (max-width: 1000px){
+  @media only screen and (max-width: 300px){
       #header{
         font-size: 30px;
       }
+      .text_box{        
+        padding:40px 20px;
+        text-align: justify;
+      }
+
+      #quote{
+        font-size: 20px; 
+    }
+    
+    .formbox input[type="text"],.formbox input[type = "name"],.formbox input[type = "email"]{
+     
+      margin: 10px auto;      
+      padding: 10px 20px;
+      width: 150px;      
+      font-size: 15px;
+    }
+  
+    .formbox input[type="text"]
+    {
+      height: 50px;
+    }
+  
+    
+  
+    .formbox input[type="text"]:focus,.formbox input[type = "name"]:focus,.formbox input[type = "email"]:focus{
+      width: 180px;      
+    }
+   
+    .formbox input[type = "submit"]{     
+     
+      margin: 10px auto;      
+      padding: 12px 20px;      
+    }
+  
+    .formbox input[type = "reset"]{
+      margin: 10px auto;      
+      padding: 12px 20px;   
+    }    
   }
+
+  @media only screen and (min-width: 300px ) and (max-width: 600px){
+    #header{
+      font-size: 35px;
+    }
+   
+    .text_box{        
+      padding:40px 20px;
+      text-align: justify;
+    }
+
+    #quote{
+      font-size: 20px; 
+  }
+  
+  .formbox input[type="text"],.formbox input[type = "name"],.formbox input[type = "email"]{
+   
+    margin: 10px auto;      
+    padding: 10px 20px;
+    width: 250px;      
+    font-size: 15px;
+  }
+
+  .formbox input[type="text"]
+  {
+    height: 50px;
+  }
+
+  
+
+  .formbox input[type="text"]:focus,.formbox input[type = "name"]:focus,.formbox input[type = "email"]:focus{
+    width: 180px;      
+  }
+ 
+  .formbox input[type = "submit"]{     
+   
+    margin: 10px auto;      
+    padding: 8px 20px;      
+  }
+
+  .formbox input[type = "reset"]{
+    margin: 10px auto;      
+    padding: 8px 20px;   
+  }    
+}
   
