@@ -62,8 +62,7 @@ body, html{
   }
 
   #header{
-      transition: 0.2s;
-      
+       transition: 0.2s; 
     color: black;
     padding: 18px;
     font-size: 90px;
@@ -71,11 +70,14 @@ body, html{
   }
 
   .form_cov{
-    background-color:rgb(228, 228, 228);
+    background-color:rgb(228, 228, 228);  
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
+
   .formbox{
-    width: 300px;    
-    text-align: center;       
+    width: 100%;    
+    text-align: center;      
   }
   
   .formbox input[type="text"],.formbox input[type = "name"],.formbox input[type = "email"]{
@@ -84,22 +86,27 @@ body, html{
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 1px solid #111;
-    padding: 14px 10px;
-    width: 200px;
+    border: 1px solid rgb(175, 175, 175);
+    padding: 25px 40px;
+    width: 300px;
     outline: none;
     color: inherit;   
     transition: 0.25s;
+    border-radius: 3px;
+    font-size: 35px;
   }
 
   .formbox input[type="text"]
   {
-    height: 30px;
+    height: 80px;
   }
 
+  
+
   .formbox input[type="text"]:focus,.formbox input[type = "name"]:focus,.formbox input[type = "email"]:focus{
-    width: 280px;
-    border-color: #2ecc71;
+    width: 380px;
+    background-color: #d1d1d1;
+    border-color: #111;
   }
  
   .formbox input[type = "submit"]{
@@ -134,6 +141,15 @@ body, html{
   .formbox input[type="reset"]:hover{
     background: #ffd8d8;
   }
+
+  .counter{
+    padding: 10px 10px 10px 10px;
+    background-color:rgb(228, 228, 228);
+  }
   
-  
+  @media only screen and (max-width: 1000px){
+      #header{
+        font-size: 30px;
+      }
+  }
   
