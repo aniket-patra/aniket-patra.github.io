@@ -3,6 +3,7 @@ body, html{
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
     color: #777;
+    text-decoration: none;
 }
 
 
@@ -70,68 +71,69 @@ body, html{
   }
 
   .form_cov{
-    width: 500px; 
-    margin: 0 auto;
+    background-color:rgb(228, 228, 228);
   }
   .formbox{
-    width: 200px;    
-    text-align: center;
-    
+    width: 300px;    
+    text-align: center;       
   }
   
-  .formbox input[type = "name"],.formbox input[type = "email"]{
-    border:0;
+  .formbox input[type="text"],.formbox input[type = "name"],.formbox input[type = "email"]{
+   
     background: none;
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid #3498db;
+    border: 1px solid #111;
     padding: 14px 10px;
     width: 200px;
     outline: none;
-    color: inherit;
-    border-radius: 24px;
+    color: inherit;   
     transition: 0.25s;
   }
-  .formbox input[type = "name"]:focus,.formbox input[type = "email"]:focus{
+
+  .formbox input[type="text"]
+  {
+    height: 30px;
+  }
+
+  .formbox input[type="text"]:focus,.formbox input[type = "name"]:focus,.formbox input[type = "email"]:focus{
     width: 280px;
     border-color: #2ecc71;
   }
  
   .formbox input[type = "submit"]{
-    border:0;
+    
     background: none;
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid #2ecc71;
+    border: 1px solid #2ecc71;
     padding: 14px 40px;
     outline: none;
-    color:inherit;
-    border-radius: 24px;
+    color:inherit;     
     transition: 0.25s;
     cursor: pointer;
   }
   .formbox input[type="submit"]:hover{
-    background: #2ecc71;
+    background: #d7eee1;
   }
 
   .formbox input[type = "reset"]{
-    border:0;
     background: none;
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid #df1b1b;
+    border: 1px solid #df1b1b;
     padding: 14px 40px;
     outline: none;
-    color:inherit;
-    border-radius: 24px;
+    color:inherit;     
     transition: 0.25s;
     cursor: pointer;
   }
   .formbox input[type="reset"]:hover{
-    background: #df1b1b;
+    background: #ffd8d8;
   }
+  
   
   

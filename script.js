@@ -5,3 +5,9 @@ function scrollFunction() {
       document.getElementById("header").style.fontSize = "90px";
     }
   }
+
+  function onSubmit(token) {
+
+    document.getElementById("invisible-recaptcha-form").submit();
+    
+    }
