@@ -6,6 +6,17 @@ body, html{
     text-decoration: none;
 }
 
+canvas {
+  display: block;  
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: relative;
+  
+  height: 100%; 
+}
 
 .bgimg1, .bgimg2, .bgimg3{    
     opacity: 0.6;
