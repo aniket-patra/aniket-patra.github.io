@@ -7,4 +7,6 @@ So, this is my basic profile page. I am continuously trying new features and upd
 
 -*Forgot everythng that happened in the the middle*
 
--Added a CSS based loader on 21/Jan/2020 using [Tashfeen's Pen](https://codepen.io/tashfene/pen/raEqrJ).
+-Added a CSS based loader using [Tashfeen's Pen](https://codepen.io/tashfene/pen/raEqrJ) on 21/Jan/2020 .
+
+-Added a new fevicon using [favicon](https://favicon.io/favicon-generator/) on 21/Jan/2020.
