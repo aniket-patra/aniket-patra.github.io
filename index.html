@@ -8,17 +8,13 @@
         <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="icon" type="image/png" href="/assets/fevi.ico">   
-        
+        <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
         <title>Profile of Aniket Patra</title>
         <style>
            
-        </style>
-
-        
+        </style>        
     </head>
-    <body>
-         
-           
+    <body>          
 
            
                <div class="bgimg1" id="particles-js">
@@ -35,18 +31,23 @@
                         <span class="cap_text">ABOUT ME</span>
                     </div>
                 </div>
-                <div class="text_box">
-                    Hi, I am Aniket Patra and I am a student. 
-                    I am currently completing my Masters in Computer Science (M.Sc. CS) 
-                    from St. Xavier's College, Kolkata. I got here due to my passion for 
-                    Computers which initially sparked during my school days. I was always 
-                    fascinated by the advanced technologies that were especially used in 
-                    humanoids! Things like small embedded systems or kinds of stuff created 
-                    with microcontrollers were my toys. I love to create simple websites, 
-                    play video games and code in my free time. C++ is my choice of language, 
-                    I just love it! I plan to continue studying in this field and 
-                    create an advanced AI-based system (&hearts; Tony Stark).                    
-                   </div>
+                <div class="outer_box">
+                    <div class="text_box"> 
+                        Hi I am Aniket Patra and I am a student. I am currently completing my Masters 
+                        in Computer Science (M.Sc. CS) from St. Xavier's College, Kolkata. I got here 
+                        due to my passion in Computers which initially sparked during my school days.
+                        I was always fascinated by the advanced technologies that was specially used in 
+                        humanoids! 
+                        Things like small embedded systems or stuffs created with microcontrollers were 
+                        my toys. I love to create simple websites, play video games and code in my free time. 
+                        C++ is my choice of language, I just love it! My future plans are to continue studying in this field 
+                        and create my own advanced AI based system (&hearts; Tony Stark). 
+
+                    </div>
+                    <div class="img_box">
+                      <img src="/assets/dp.png" alt="Picture of Aniket" height="518" width="483" style="border-radius: 50px">
+                    </div>
+                </div>
                    <div class="bgimg3">
                         <div class="caption">
                             <span class="cap_text">CONTACT ME</span>
@@ -78,9 +79,14 @@
                         <a href="https://www.instagram.com/frozenavatar/" class="fa fa-instagram" target="_blank"></a>       
                         <p style="text-align:center;">Copyright &#169; 2019 Aniket Patra. Developed by Aniket Patra. </a></p>                                  
                     </div>
-                        
-                    <script>
-             
+                    <div class="loader-wrapper">
+                    <span class="loader"><span class="loader-inner"></span></span>
+                    </div>    
+                    
+                    <script>  
+                    $(window).on("load",function(){
+                      $(".loader-wrapper").fadeOut("slow");
+                    });                               
                         particlesJS("particles-js",{
                   "particles": {
                     "number": {
