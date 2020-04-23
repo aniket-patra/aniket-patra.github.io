@@ -3,9 +3,9 @@ So, this is my basic profile page. I am continuously trying new features and upd
 
 **CHANGES**
 
--Website created
+-Website created on *God knows when*
 
--*Forgot everythng that happened in the the middle*
+-*I don't remember anything that happened in the the middle*
 
 -Added a CSS based loader using [Tashfeen's Pen](https://codepen.io/tashfene/pen/raEqrJ) on 21/Jan/2020 .
 
