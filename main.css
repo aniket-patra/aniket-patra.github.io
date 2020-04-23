@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+
 body, html{
     height: 100%;
     margin: 0;
@@ -66,7 +69,7 @@ canvas {
     text-align:center;
     padding:70px 80px;
     text-align: justify;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
   }
 
@@ -77,6 +80,7 @@ canvas {
 
   #quote{
       font-size: 30px;
+      font-family:'Ubuntu', sans-serif;
   }
 
   #header{
@@ -85,6 +89,7 @@ canvas {
     padding: 18px;
     font-size: 90px;
     letter-spacing: 10px;
+    font-family: 'Exo', sans-serif;
   }
 
   .form_cov{
