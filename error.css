@@ -1,0 +1,40 @@
+@font-face {
+    font-family: PressStart2P-Regular;
+    src: url('/assets/PressStart2P-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: Audiowide-Regular;
+    src: url('/assets/Audiowide-Regular.ttf');
+  }
+
+body{
+    background-image: url('/assets/eror.jpg') ;
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+p {
+    text-align: center;
+    font-family: PressStart2P-Regular;
+    font-size: larger;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(61, 60, 60);
+}
+
+a:hover{
+    color: black;
+}
+
+h1{
+    font-family: Audiowide-Regular;
+    text-align: center;}
+
