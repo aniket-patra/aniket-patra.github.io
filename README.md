@@ -11,4 +11,4 @@ So, this is my basic profile page. I am continuously trying new features and upd
 
 -Added a new fevicon using [favicon](https://favicon.io/favicon-generator/) on 21/Jan/2020.
 
--Added a custom 404 page with coffin dancers waiting!
+-Added a custom 404 page with coffin dancers waiting! on 23/April/2020.
