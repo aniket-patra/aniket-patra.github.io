@@ -13,4 +13,4 @@ So, this is my basic profile page. I am continuously trying new features and upd
 
 -Added a custom 404 page with coffin dancers waiting! on 23/April/2020.
 
--Added Indian Logo with my name in Footer![India Logo](https://github.com/aniket-patra/aniket-patra.github.io/blob/master/assets/india-16x16.png) and compressed the html and css code on 04/May/2020
+-Added Indian Logo with my name in Footer ![India Logo](https://github.com/aniket-patra/aniket-patra.github.io/blob/master/assets/india-16x16.png) and compressed the html, css code on 04/May/2020
