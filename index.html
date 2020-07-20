@@ -3,14 +3,12 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
-
+    <meta
+      name="description"
+      content="Hi, I am Aniket Patra. Click here to know about me and contact me."
+    />
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-2.2.4.js"
-      integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
-      crossorigin="anonymous"
-    ></script>
-
     <link rel="stylesheet" href="main.css" />
     <link
       rel="stylesheet"
@@ -18,9 +16,13 @@
     />
 
     <link rel="icon" type="image/png" href="/assets/fevi.png" />
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.js"
+      integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+      crossorigin="anonymous"
+    ></script>
     <title>Profile of Aniket Patra</title>
-
     <style></style>
   </head>
   <body>
@@ -82,14 +84,20 @@
         </form>
       </center>
     </div>
-    <center><a href="https://livetrafficfeed.com/hit-counter" data-root="0" data-unique="1" data-style="132" data-min="4" data-start="150" id="LTF_hitcounter">Website Hit Counter</a><script type="text/javascript" src="//cdn.livetrafficfeed.com/static/hitcounterjs/live.js"></script></center><noscript><a href="https://livetrafficfeed.com/hit-counter">Website Hit Counter</a></noscript>
+    <div class="counter">
+      <center>
+        <img
+          src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Faniket-patra.github.io%2F"
+          alt="Hits"
+        />
+      </center>
+    </div>
     <div class="footr">
       <a
         href="https://www.facebook.com/frozenavatar"
         class="fa fa-facebook"
         target="_blank"
       ></a>
-
       <a
         href="https://twitter.com/frozenavatar"
         class="fa fa-twitter"
@@ -100,37 +108,24 @@
         class="fa fa-linkedin"
         target="_blank"
       ></a>
-
       <a
         href="https://www.instagram.com/frozenavatar/"
         class="fa fa-instagram"
         target="_blank"
       ></a>
-
       <p style="text-align: center;">
-        Copyright &#169; <span id="year_container"></span>
-        <span style="color: rgb(85, 84, 87); font-family: 'Exo', sans-serif;"
-          >Aniket Patra</span
-        >. Developed by
-        <img
-          src="assets/india-16x16.png"
-          alt="India Logo"
-          height="16"
-          width="16"
-        />
-        <span style="color: rgb(85, 84, 87); font-family: 'Exo', sans-serif;"
-          >Aniket Patra</span
-        >.
+        Copyright &#169; 2020 Aniket Patra. Developed by Aniket Patra.
       </p>
     </div>
     <div class="loader-wrapper">
       <span class="loader"><span class="loader-inner"></span></span>
     </div>
-    <script src="script.js"></script>
+
     <script>
       $(window).on("load", function () {
         $(".loader-wrapper").fadeOut("slow");
       });
+
       particlesJS("particles-js", {
         particles: {
           number: {
