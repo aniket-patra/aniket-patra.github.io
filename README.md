@@ -1,5 +1,8 @@
 # My Profile
-![Cat moving paw gif](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
+<p align="center">
+  <img width="460" height="300" src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" alt="Cat moving paw gif">
+</p>
 
 So, this is my basic profile page. I am continuously trying new features and updating it to this website.
 
