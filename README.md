@@ -1,4 +1,4 @@
-# My Profile
+<h1 align="center">My Profile</h1>
 
 <p align="center">
   <img width="460" height="300" src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" alt="Cat moving paw gif">
