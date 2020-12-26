@@ -2,16 +2,66 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="theme-color" content="#FFCCCC" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="/assets/fevi.png" />
     <title>Thank You!</title>
+    <meta
+      name="description"
+      content="Hi, I am Aniket Patra. This is my custom Redirect Page."
+    />
+    <script
+      src="https://kit.fontawesome.com/53a29261c0.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .container {
+        background-color: pink;
+        margin: 5% 10%;
+        padding: 10px 20px 10px 20px;
+        border-radius: 5px;
+      }
+
+      #astro,
+      a {
+        text-decoration: none;
+        text-align: center;
+        color: rgb(54, 54, 54);
+        font-size: calc(80px + 0.5vw);
+      }
+      #astro,
+      a:hover {
+        color: grey;
+      }
+    </style>
   </head>
-  <body bgcolor="pink">
-    <h1 id="headEdit">Thank You!</h1>
-    <h2>I've got your message.</h2>
-    <br />
-    <p>I'll contact you soon.</p>
-    <a href="https://aniket-patra.github.io/">Click Here to get back.</a>
+  <body>
+    <div class="container">
+      <p
+        style="font-size: calc(60px + 0.5vw); text-align: center"
+        id="headEdit"
+      >
+        Thank You! <br />
+      </p>
+      <p id="astro">
+        <a href="https://aniket-patra.github.io/"
+          ><i class="fas fa-space-shuttle"></i
+        ></a>
+      </p>
+
+      <h2 style="font-size: calc(20px + 0.5vw); text-align: center">
+        I've got your message.
+      </h2>
+      <br />
+      <p style="font-size: calc(20px + 0.5vw); text-align: center">
+        I'll contact you soon.
+      </p>
+      <p
+        style="font-size: calc(20px + 0.5vw); text-align: center; color: indigo"
+      >
+        Click on space shuttle to get home.
+      </p>
+    </div>
+    <script src="thanksScript.js"></script>
   </body>
-  <script src="thanksScript.js"></script>
 </html>
