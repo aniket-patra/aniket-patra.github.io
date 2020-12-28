@@ -19,3 +19,7 @@
 -Added a custom 404 page with coffin dancers waiting! on 23/April/2020.
 
 -Added Indian Logo with my name in Footer ![India Logo](https://github.com/aniket-patra/aniket-patra.github.io/blob/master/assets/india-16x16.png) and compressed the html, css code on 04/May/2020
+
+-Edited Thank You page and added theme-color meta tag on 26/Dec/2020
+
+-Edited favicon and added og meta tags on 28/Dec/2020.
