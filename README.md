@@ -8,9 +8,9 @@
 
 **CHANGES**
 
--Website created on *God knows when*
+-Website created on _God knows when_
 
--*I don't remember anything that happened in the the middle*
+-_I don't remember anything that happened in the the middle_
 
 -Added a CSS based loader using [Tashfeen's Pen](https://codepen.io/tashfene/pen/raEqrJ) on 21/Jan/2020 .
 
@@ -23,3 +23,5 @@
 -Edited Thank You page and added theme-color meta tag on 26/Dec/2020
 
 -Edited favicon and added og meta tags on 28/Dec/2020.
+
+-Added auto redirect to home page from ERROR 404 page on 28/Dec/2020.
