@@ -1,26 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="UTF-8">
-        <script src="script.js"></script>      
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="theme-color" content="#777777" />
+    <meta name="description" content="Hi, this is my custom 404 error page." />
+    <meta
+      name="keywords"
+      content="Aniket Patra,aniket patra,profile of Aniket Patra, Aniket"
+    />
+    <meta name="author" content="Aniket Patra" />
+    <meta property="og:title" content="ERROR" />
+    <meta property="og:url" content="https://aniket-patra.github.io/" />
+    <meta
+      property="og:image"
+      content="https://github.com/aniket-patra/aniket-patra.github.io/blob/master/assets/myAvatar.svg"
+    />
+    <meta property="og:type" content="profile" />
+    <meta
+      property="og:description"
+      content="Hi, this is my custom 404 error page."
+    />
 
-        <link rel="stylesheet" href="error.css">      
-       
-        <link rel="icon" type="image/png" href="/assets/fevi.png">          
-        
-        <title>Profile of Aniket Patra</title>
-        <style>
-           
-        </style>        
-    </head>
-    <body>   
-        <div>    
-        <p>OOPS!</p>
-        <p style="color:red; font-family: Audiowide-Regular;font-size:40px">404</p>
-        <p>YOU'RE IN THE WRONG PLACE</p>
-        <p>HEAD BACK TO SAFETY OR THEY WILL GET YOU! MY FRIEND</p>
-        </div>
-        <h1><a href="https://aniket-patra.github.io/">CLICK HERE TO ESCAPE</a></h1>
-    </body>
+    <link rel="stylesheet" href="error.css" />
+
+    <link rel="icon" type="image/png" href="/assets/myAvatar_200.png" />
+
+    <title>ERROR</title>
+  </head>
+  <body>
+    <div>
+      <p>OOPS!</p>
+      <p id="blinker">404</p>
+      <p>YOU'RE ON THE WRONG PAGE</p>
+
+      <p>Taking you to CORRECT PAGE in <span id="counter">8</span> second(s)</p>
+      <h1>
+        <a href="https://aniket-patra.github.io/"
+          >CLICK HERE TO ESCAPE FASTER</a
+        >
+      </h1>
+    </div>
+    <script>
+      var i = 8;
+      setInterval(function () {
+        document.getElementById("counter").innerHTML = i;
+        i = i - 1;
+
+        if (i == -1) {
+          window.location.href = "https://aniket-patra.github.io/";
+        }
+      }, 1000);
+    </script>
+  </body>
 </html>

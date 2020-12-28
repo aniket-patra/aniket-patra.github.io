@@ -1,40 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
 @font-face {
-    font-family: PressStart2P-Regular;
-    src: url('/assets/PressStart2P-Regular.ttf');
-  }
+  font-family: Audiowide-Regular;
+  src: url("/assets/Audiowide-Regular.ttf");
+}
 
-  @font-face {
-    font-family: Audiowide-Regular;
-    src: url('/assets/Audiowide-Regular.ttf');
-  }
+body {
+  background-image: url("/assets/eror.jpg");
+  background-size: cover;
 
-body{
-    background-image: url('/assets/eror.jpg') ;
-    background-size: cover;
-    
-    
-    
-    height: 100vh;
-    padding:0;
-    margin:0;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
 }
 
 p {
-    text-align: center;
-    font-family: PressStart2P-Regular;
-    font-size: larger;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
 }
 
-a{
-    text-decoration: none;
-    color: rgb(61, 60, 60);
+a {
+  text-decoration: none;
+  color: rgb(232, 247, 239);
 }
 
-a:hover{
-    color: black;
+a:hover {
+  color: black;
 }
 
-h1{
-    font-family: Audiowide-Regular;
-    text-align: center;}
+h1 {
+  font-family: Audiowide-Regular;
+  text-align: center;
+}
 
+#blinker {
+  font-family: Audiowide-Regular;
+  font-size: 40px;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes blink {
+  from {
+    color: white;
+  }
+  to {
+    color: red;
+  }
+}
