@@ -56,12 +56,13 @@
         text-decoration: none;
         text-align: center;
         color: rgb(54, 54, 54);
-        font-size: calc(80px + 0.5vw);
+        font-size: calc(70px + 0.5vw);
         position: relative;
         animation-name: launch;
         animation-duration: 2s;
         animation-iteration-count: 2;
         animation-direction: alternate;
+        padding-top: 30px;
       }
       #astro,
       a:hover {
@@ -103,7 +104,10 @@
       <p
         style="font-size: calc(20px + 0.5vw); text-align: center; color: indigo"
       >
-        Click on space shuttle to get home.
+        Click on space shuttle to get home. <br />
+        Or <br />
+        Taking you back in
+        <span id="counter" style="color: black">8</span> second(s)
       </p>
     </div>
     <script src="thanksScript.js"></script>
